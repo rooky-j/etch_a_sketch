@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    width: 100%;
+}
+
+#container {
+    height: 640px;
+    width: 640px; 
+    margin: auto; 
+}
+
+.gridRows { 
+    display: flex;
+    flex-direction: row;
+}
+
+.gridSquares { 
+    display: flex; 
+    flex-direction: row;
+    background-color:; 
+    border: .1px black solid; 
+}
