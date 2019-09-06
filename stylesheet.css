@@ -3,20 +3,72 @@ body {
     width: 100%;
 }
 
+#overallContainer{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+img {
+    width: 20%;
+    margin: auto;
+}
+
+
+#buttonContainer {
+    margin: auto;
+}
+
+.button {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 0 10px 0 10px; 
+    transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+    background: #ECFF10;
+    color: #0E00CE;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
 #container {
     height: 640px;
     width: 640px; 
     margin: auto; 
+    margin-top: 20px;
+    padding: 75px; 
+    background-color: #F00E0F;
+    border: 3px solid #c20e0e;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #c20e0e;
 }
 
 .gridRows { 
     display: flex;
     flex-direction: row;
+    background-color: white;
 }
 
 .gridSquares { 
     display: flex; 
     flex-direction: row;
-    background-color:; 
-    border: .1px black solid; 
+    border: .1px lightgray solid; 
+}
+
+.blackFill {
+    background-color: black;
 }
